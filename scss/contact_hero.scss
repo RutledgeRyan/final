@@ -1,0 +1,99 @@
+.contact-hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 189px auto 460px auto;
+    max-width: 1280px;
+     
+    
+    .contact-image{
+    background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(/images/contactimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        .name{
+            width: 500px;
+            height: 30px;
+            background-color: rgb(201, 201, 201, .42);
+            padding-left: 16px;
+            margin-bottom: 56px;
+
+        }
+        .email{
+            width: 500px;
+            height: 30px;
+            background-color: rgb(201, 201, 201, .42);
+            padding-left: 16px;
+            margin-bottom: 56px;
+
+        }
+        .phone{
+            width: 500px;
+            height: 30px;
+            background-color: rgb(201, 201, 201, .42);
+            padding-left: 16px;
+            margin-bottom: 56px;
+        }
+        .message{
+            width: 500px;
+            height: 200px;
+            background-color: rgb(201, 201, 201, .42);
+            padding-left: 21px;
+            padding-bottom: 150px;
+            margin-bottom: 56px;
+        }
+        button{
+            margin: 0 auto;
+            width: 150px;
+            height: 40px;
+            background-color: #00879E;
+        }
+    }
+}
+@media (max-width: 1300px){
+    .contact-hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 50px auto;
+        .contact-image{
+            margin-bottom: 20px;
+        }
+        
+    }
+}
+
+@media (max-width: 600px){
+    .contact-hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 50px auto;
+        .contact-image{
+            margin-bottom: 20px;
+        }
+        .contact-form{
+            .name{
+                width: 300px;
+            }
+            .email{
+                width: 300px;
+            }
+            .phone{
+                width: 300px;
+            }
+            .message{
+                width: 300px;
+            }
+        }
+        
+    }
+}

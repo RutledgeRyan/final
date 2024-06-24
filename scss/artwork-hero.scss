@@ -1,0 +1,119 @@
+.artwork-hero{
+display: flex;
+justify-content: space-between;
+margin-bottom: 546px;
+ 
+
+.artwork-image1{
+background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(/images/gallery_two.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 361px;
+height: 591px;
+margin: 158px auto 0 auto;
+}
+.artwork-image2{
+    background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(/images/gallery_one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    margin: 133px auto 0 auto;
+    }
+.artwork-image3{
+    background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(/images/gallery_three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 512px;
+    height: 351px;
+    margin: 131px auto 0 auto;
+    }
+.artwork-image4{
+    background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(/images/gallery_four.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 480px;
+    height: 628px;
+    margin: 135px auto 0 auto;
+    }
+.description{
+    margin: 140px auto 0 auto;
+    max-width: 717px;
+.artwork-title{
+    font-size: 32px;
+    margin-left: 342px;
+    margin-bottom: 65px;
+     
+}
+.artwork-description{
+    font-size: 16px;
+    margin-left: 126px;
+
+}
+}
+}
+
+
+@media (max-width: 1150px){
+    .artwork-hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+
+        .description{
+            margin: 70px auto 0 auto;
+            text-align: center;
+            padding: 20px;
+            .artwork-title{
+                margin-left: 0;
+            }
+            .artwork-description{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .artwork-hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .artwork-image1{
+            margin: 50px auto 0 auto;
+        }
+        .artwork-image2{
+            margin: 50px auto 0 auto;
+        }
+        .artwork-image3{
+            margin: 50px auto 0 auto;
+            width: 350px;
+        }
+        .artwork-image4{
+            margin: 50px auto 0 auto;
+            width: 400px;
+            height: 400px;
+        }
+
+        .description{
+            margin: 30px auto 0 auto;
+            text-align: center;
+            padding: 20px;
+            .artwork-title{
+                margin-left: 0;
+            }
+            .artwork-description{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+

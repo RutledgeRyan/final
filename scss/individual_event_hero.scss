@@ -1,0 +1,79 @@
+.event-hero{
+    max-width: 1200px;
+    margin: 139px auto 137px auto;
+span{
+    font-size: 32px;
+    border-bottom: solid black 2px;
+    padding-right: 200px;
+}
+.event-image1{
+    margin-top: 63px;
+    max-width: 1200px;
+    height: 484px;
+    background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(../images/age_of_art_event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.event-image2{
+    margin-top: 63px;
+    max-width: 1200px;
+    height: 484px;
+    background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(../images/artshow_event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.event-image3{
+    margin-top: 63px;
+    max-width: 1200px;
+    height: 484px;
+    background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(../images/color_theory_event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.event-image4{
+    margin-top: 63px;
+    max-width: 1200px;
+    height: 484px;
+    background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(../images/express_yourself_event.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+}
+.event-description{
+    text-align: center;
+    margin: 121px auto 110px auto;
+    max-width: 964px;
+
+    .event-title{
+        font-size: 26px;
+        margin-bottom: 71px;
+        text-transform: uppercase;
+    }
+    .event-paragraph{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1280px){
+    .event-hero{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto 60px auto;
+    }
+        .event-description{
+            margin: 70px auto 0 auto;
+            text-align: center;
+            padding: 20px;
+
+            
+                      }
+        }
+    

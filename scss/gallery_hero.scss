@@ -1,0 +1,119 @@
+.hero{
+    max-width: 1200px;
+    margin: 131px auto 450px auto;
+span{
+    font-size: 32px;
+    border-bottom: solid black 2px;
+    padding-right: 200px;
+}
+.hero-images{
+    margin: 78px auto;
+    max-width: 1260px;
+    height: 591px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    .col-one{
+        flex-direction: column;
+        justify-content: space-between;
+
+        .image1{
+            height: 591px;
+            width: 361px;
+            background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(../images/gallery_two.jpg);
+        }
+    }
+
+    .col-two{
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .image2{
+            height: 260px;
+            width: 386px;
+            background-image:linear-gradient(to bottom, rgba(233,131,13, 0.4), rgba(233,131,13, 0.4)), url(../images/gallery_one.jpg);
+        }
+        .image3{
+            margin-top: 44px;
+            height: 287px;
+            width: 373px;
+            background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(../images/gallery_three.jpg);
+        }
+    }
+
+    .col-three{
+        flex-direction: column;
+        justify-content: space-between;
+
+        .image4{
+            height: 591px;
+            width: 354px;
+            background-image:linear-gradient(to bottom, rgba(0,135,158, 0.4), rgba(0,135,158, 0.4)), url(../images/gallery_four.jpg);
+        }
+    }
+}
+
+
+
+}
+
+@media (max-width:1280px){
+    .hero{
+        margin: 60px auto 60px auto;
+        text-align: center;
+        height: auto;
+
+        .hero-images {
+            
+            display: block;
+            
+            .col-one{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                .image1{
+                    width: 150px;
+                    height: 150px;
+                }
+                
+            }
+            .col-two{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                .image2{
+                    width: 150px;
+                    height: 150px;
+                }
+                .image3{
+                    margin-top: 10px;
+                    width: 150px;
+                    height: 150px;
+                }
+                
+            }
+            .col-three{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                .image4{
+                    width: 150px;
+                    height: 150px;
+                }
+                
+            }
+
+        }
+        
+    }
+    }
